@@ -15,7 +15,7 @@ The Challenge
 
 The next week is crucial for the success of Meatdealer. You, the mastermind behind Meatdealer, are asked to optimize next week's working schedule for both of our sales representatives.
 
-You can find a csv of interested companies [https://github.com/teamleadercrm/hackathon-challenge/blob/master/input.csv](here). And it looks like this:
+You can find a csv of interested companies [https://github.com/teamleadercrm/hackathon-challenge/blob/master/input.csv](here). This is what it looks like:
 
 ```csv
 Id,Value,Probability,Latitude,Longitude,"Preferred Weekday"
@@ -62,11 +62,11 @@ Make sure that the meetings in your output are a chronological order.
 
 We will evaluate your solution based on the cumulative weighted revenue (probability * value) of your working schedule. The person/team with the highest total weighted revenue wins!
 
-Once you have a working schedule, you can upload it at [https://paris-hackathon.teamleader.eu](paris-hackathon.teamleader.eu). You can upload as many times as you want. And remember, a sub-optimal working schedule is better than no schedule.
+Once you have a working schedule, you can upload it at [https://paris-hackathon.teamleader.eu](paris-hackathon.teamleader.eu). You can upload as many times as you, using the same team name. And remember, a sub-optimal working schedule is better than no schedule.
 
 Good luck!
 
 Bonus
 -----
 
-Every lead has a preferred day of the week on which he would like to be contacted by our sales representative. If the sales representative visits the lead on that day, the probability of closing the deal increases by 10%. Keep in mind that the probability can not be higher than 100%.
+Every lead has a preferred day of the week on which he would like to be contacted by our sales representative. If the sales representative visits the lead on that day, the probability of closing the deal increases by 10%. Keep in mind that the total probability can not be higher than 100%.
