@@ -4,7 +4,7 @@ Teamleader Hackathon
 Meatdealer
 ----------
 
-You are one of founders of a startup called Meatdealer. Meatdealer has found a brilliant way to grow tasty synthetic meat, in a state of the art laboratory.
+You are one of the founders of a startup called Meatdealer. Meatdealer has found a brilliant way to grow tasty synthetic meat, in a state of the art laboratory.
 
 Last week, at a vegetarian conference, we managed to gather a list of over a 100 companies that are interested in distributing our animal friendly meat.
 
