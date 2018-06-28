@@ -1,17 +1,21 @@
-Teamleader hackathon
+Teamleader Hackathon
 ====================
 
-Meatdealer has 2 sales representatives. They start at the office (coördinates below) and like to be back within their 8 hour working day. It takes them 45 minutes to close a deal. Every time again! Oh, and they have jetpacks! Yes, real jetpacks! They won't tell where they got them, but all we know is that they definitely travel in straight lines at 60km/h, constantly!
+Meatdealer
+----------
 
-Our marketing team gathered some really good clients and put them all into a nice csv list! Every line has, in that order:
+You are one of founders of a startup called Meatdealer. Meatdealer has found a brilliant way to grow tasty synthetic meat, in a state of the art laboratory.
 
-- A deal identifier
-- The deal value (in €)
-- The probability to close the deal (between 0 and 1)
-- The latitude &amp; longitude, specifying the lead&#39;s location
-- The potential client&#39;s preferred weekday to be visited.
+Last week, at a vegetarian conference, we managed to gather a list of over a 100 companies that are interested in distributing our animal friendly meat.
 
-Example:
+We currently have 2 sales representatives with jet-packs. Yes, real jet-packs. With these, they can travel from meeting to meeting in a straight line at a constant speed of 60 km/h. Once they arrive, it takes them exactly 45 minutes to potentially close the deal.
+
+The Challenge
+-------------
+
+The next week is crucial for the success of Meatdealer. You, the mastermind behind Meatdealer, are asked to optimize next week's working schedule for both of our sales representatives.
+
+You can find a csv of interested companies [https://github.com/teamleadercrm/hackathon-challenge/blob/master/input.csv](here). And it looks like this:
 
 ```csv
 Id,Value,Probability,Latitude,Longitude,"Preferred Weekday"
@@ -22,37 +26,47 @@ Id,Value,Probability,Latitude,Longitude,"Preferred Weekday"
 5,32441,0.56,49.10262,2.53774,tuesday
 ```
 
-Anything else we need to add? Well, yes: our office address (Teamleader Paris):
+In this file, you will find the following information:
+
+- A deal identifier
+- The deal value (in €)
+- The probability to close the deal (between 0 and 1)
+- The latitude and longitude, specifying the lead's location
+- The potential lead's preferred weekday to be visited (see bonus)
+
+At Meatdealer, we work hard and play hard. Our sales representatives work 8 hours a day (not a single minute longer). They always start the day at the office, and must be back by the end of the day to celebrate their closed deals with beers and synthetic pepperoni pizzas.
+
+The Meatdealer office is at WeWork Coeur Marais. The jet-pack coordinates are:
+
 - Latitude: 48.861804
 - Longitude: 2.359132
 
-You are asked to make a software tool to plan a week schedule for the two sales representatives that plans meetings with the customers that results in the highest weighted (probability \* value) revenue possible.
-
-The solution with the highest combined revenue wins.
-
-_Bonus: the deal probability is increased by 10% if you visit the lead on the prefered day of the week! Keep in mind, the probability can not be higher than 100%._
-
-You can upload your solution to our submission website (https://paris-hackathon.teamleader.eu). Please do so in the following format:
+It all depends on you. Compared to synthetic meat, this should be easy. The expected csv output of your algorithm should look like this:
 
 ```csv
-0,0,3
+0,0,23
 0,1,49
-0,2,12
+0,2,76
 1,0,47
-1,1,40
-1,2,20
+1,1,42
+1,2,12
 ```
- 
-Where the numbers are respectively:
 
-- The number of the salesperson
-- The day of the week (zero based!)
-- The identifier of the deal
+With these columns respectively:
 
-Separate by a semi-colon, no header row and you're good to go!
+- The number of the salesperson (zero based)
+- The day of the week (zero based, with Monday as the start of the week)
+- The identifier of the deal (found in the input file)
 
-Obviously, sort them in the same order you want your sales representative to visit them.
+Make sure that the meetings in your output are a chronological order.
 
-Upload your solution at [https://paris-hackathon.teamleader.eu](https://paris-hackthon.teamleader.eu) and cross your fingers!
+We will evaluate your solution based on the cumulative weighted revenue (probability * value) of your working schedule. The person/team with the highest total weighted revenue wins!
+
+Once you have a working schedule, you can upload it at [https://paris-hackathon.teamleader.eu](paris-hackathon.teamleader.eu). You can upload as many times as you want. And remember, a sub-optimal working schedule is better than no schedule.
 
 Good luck!
+
+Bonus
+-----
+
+Every lead has a preferred day of the week on which he would like to be contacted by our sales representative. If the sales representative visits the lead on that day, the probability of closing the deal increases by 10%. Keep in mind that the probability can not be higher than 100%.
