@@ -8,7 +8,7 @@ You are one of founders of a startup called Meatdealer. Meatdealer has found a b
 
 Last week, at a vegetarian conference, we managed to gather a list of over a 100 companies that are interested in distributing our animal friendly meat.
 
-We currently have 2 sales representatives with jet-packs. Yes, real jet-packs. With these, they can travel from meeting to meeting in a straight line at a constant speed of 60 km/h. Once they arrive, it takes them exactly 45 minutes to potentially close the deal.
+We currently have 2 sales representatives with jet-packs. Yes, real jet-packs. With these, they can travel from meeting to meeting in a straight line at a constant speed of 60 km/h. Once they arrive, it takes them exactly 45 minutes to potentially close the deal. These guys are amazing!
 
 The Challenge
 -------------
