@@ -15,7 +15,7 @@ The Challenge
 
 The next week is crucial for the success of Meatdealer. You, the mastermind behind Meatdealer, are asked to optimize next week's working schedule for both of our sales representatives.
 
-You can find a csv of interested companies [https://github.com/teamleadercrm/hackathon-challenge/blob/master/input.csv](here). This is what it looks like:
+You can find a csv of interested companies [here](https://github.com/teamleadercrm/hackathon-challenge/blob/master/input.csv). This is what it looks like:
 
 ```csv
 Id,Value,Probability,Latitude,Longitude,"Preferred Weekday"
@@ -62,7 +62,7 @@ Make sure that the meetings in your output are a chronological order.
 
 We will evaluate your solution based on the cumulative weighted revenue (probability * value) of your working schedule. The person/team with the highest total weighted revenue wins!
 
-Once you have a working schedule, you can upload it at [https://paris-hackathon.teamleader.eu](paris-hackathon.teamleader.eu). You can upload as many times as you, using the same team name. And remember, a sub-optimal working schedule is better than no schedule.
+Once you have a working schedule, you can upload it at [paris-hackathon.teamleader.eu](https://paris-hackathon.teamleader.eu). You can upload as many times as you, using the same team name. And remember, a sub-optimal working schedule is better than no schedule.
 
 Good luck!
 
